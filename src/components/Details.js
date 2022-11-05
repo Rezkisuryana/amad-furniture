@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {ProductConsumer} from '../Context';
 import {Link} from 'react-router-dom';
 import {ButtonContainer} from './Button';
-import {ButtonModal} from './ButtonModal';
 
 class Details extends Component {
     render() {

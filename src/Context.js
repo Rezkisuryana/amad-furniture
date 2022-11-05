@@ -80,7 +80,7 @@ class ProductProvider extends Component {
     increase = id => {
         // console.log("this increase penambahan jml produck");
         let tempCart = [...this.state.cart];
-        const selectedProduct = tempCart.find(item => item.id == id);
+        const selectedProduct = tempCart.find(item => item.id === id);
         const index = tempCart.indexOf(selectedProduct);
         const product = tempCart[index];
 
@@ -98,7 +98,7 @@ class ProductProvider extends Component {
     decrease = id => {
         // console.log("dekresse pengurangan jml product");
         let tempCart = [...this.state.cart];
-        const selectedProduct = tempCart.find(item => item.id == id);
+        const selectedProduct = tempCart.find(item => item.id === id);
         const index = tempCart.indexOf(selectedProduct);
         const product = tempCart[index];
 

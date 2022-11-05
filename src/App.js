@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {Routes, Route} from 'react-router-dom';
 
-import logo from './logo.png';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
