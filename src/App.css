@@ -1,0 +1,103 @@
+:root {
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3;
+  --navbarWhite:#ffffff;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+  --mainPink:#e74b6f;
+}
+
+body {
+  font-family: "Oswald",sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title {
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--mainBlue);
+}
+
+.text-bright {
+  color: var(--lightBlue);
+}
+
+.btn-black {
+  background:transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius:0!important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+  
+}
+.btn-pink {
+  background-color: var(--mainPink) !important;
+  color: #f3f3f3 !important;
+}
+.text-yellow {
+  color: var(--mainYellow);
+}
+.text-bold {
+  color: #242424;
+  line-height: 1.3;
+  font-weight: 500;
+}
+.text-bold-title {
+  color: #242424;
+  line-height: 1.3;
+  font-weight: 600;
+}
+.text-button {
+  font-size: 18px;
+  font-weight: 400;
+}
+.text-description {
+  font-size: 12px;
+  font-weight: 300;
+}
+.btn-detail {
+  min-width: 160px;
+  height: 55px;
+  color: #ffffff;
+  border: none;
+  border-radius: 0;
+  padding: 0 7px;
+  font-size: 18px;
+  line-height: 56px;
+  background-color: #fbb710 !important;
+  font-weight: 400;
+  margin-right: 10px;
+}
+.btn-detail-cart {
+  min-width: 160px;
+  height: 55px;
+  color: #ffffff !important;
+  border: none;
+  border-radius: 0;
+  padding: 0 7px;
+  font-size: 18px;
+  line-height: 56px;
+  background-color: #131212 !important;
+  font-weight: 400;
+  margin-right: 10px;
+}
+.border-none {
+  text-decoration: none;
+}
